@@ -1,5 +1,6 @@
 export const getCurrencies = async () => {
-  const url = process.env.REACT_CURRENCY_API;
+  const url =
+    'https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies';
 
   try {
     const response = await fetch(`${url}.json`);
